@@ -51,8 +51,8 @@
 
         if (isset($_POST['save-button'])){
         session_start();
-        var_dump($_SESSION);
-        var_dump($_POST['txt']);
+//         var_dump($_SESSION);
+//         var_dump($_POST['txt']);
 
         if($_POST['txt'] == ""){
             $error = "画像が出力されていません";
